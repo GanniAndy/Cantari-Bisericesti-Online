@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Olden;
+    src: url(OldEnglishFive-axyVg.ttf);
+}
+body{
+    background-color: #FEF5EF;
+}
+footer{
+    color: whitesmoke;
+    background-color: #0B0A0A;
+    text-align: center;
+}
+.title{
+    margin-top: 3%;
+    margin-inline: 30%;
+    border-radius: 20px;
+    background-color: #9D5C63;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    margin-inline:1%
+}
+a:hover{
+    color:#9D5C63;
+}
+h1{
+    font-family: Olden;
+    text-align: center;
+    color: #FEF5EF;
+}
+.cuvant_inainte_box{
+    background-color: #D6E3F8;
+    color:#584B53;
+    border-radius: 20px;
+    padding-inline: 40px;
+    padding-block: 10px;
+    margin: auto;
+    display:block;
+    text-align: center;
+    font-family: olden;
+    font-size:200%;
+    width: 220px;
+}
+.cantari_box{
+    display: flex;
+    justify-content: space-around;
+}
+#cuvant_inainte{
+    color: #0B0A0A;
+    font-family: Helvetica, sans-serif,Arial;
+    font-size:60%;
+    text-align: left;
+}
+
+#c_duhovnicesti_button{
+    width: 300px;
+    height: auto;
+}
+
+#md_button{
+    width: 300px;
+    height: auto;
+}
+#nd_button{
+    width: 288.8px;
+    height: auto;
+}
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    transition: transform 0.3s ease-in-out;
+    text-align: center; 
+}
+button:hover{
+    transform: scale(105%);
+    background-color: #0B0A0A;
+}
+
+#titlu_categorie{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    text-align: center;
+    background-color: #D6E3F8;
+    margin-inline: 40%;
+    border-radius: 15px;
+    padding:5px;
+}
+#lista_cantari{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:200%;
+    margin-inline: 7%;
+}

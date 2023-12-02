@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Olden;
+    src: url(OldEnglishFive-axyVg.ttf);
+}
+body{
+    background-color: #FEF5EF;
+}
+footer{
+    color: whitesmoke;
+    background-color: #0B0A0A;
+    text-align: center;
+}
+.title{
+    margin-top: 3%;
+    margin-inline: 30%;
+    border-radius: 20px;
+    background-color: #9D5C63;
+}
+h1{
+    text-align: center;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#prl{
+    color: red;
+    font-family: Olden;
+    font-size: 120%;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
