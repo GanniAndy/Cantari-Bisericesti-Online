@@ -1,6 +1,6 @@
 @font-face {
     font-family: Olden;
-    src: url(OldEnglishFive-axyVg.ttf);
+    src: url(../OldEnglishFive-axyVg.ttf);
 }
 body{
     background-color: #FEF5EF;
@@ -39,6 +39,20 @@ p{
     margin-left: 10%;
     
 }
+pre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    text-align: left;
+    margin-left: 10%;
+}
+#chord{
+    margin-left: 13%;
+}
+.acorduri{
+    
+    margin: 7px;
+    border-radius: 20px;
+}
 
 
 .name{
@@ -53,6 +67,11 @@ p{
         font-size: 80%;
     }
     p{
+        font-size: 150%;
+        text-align: left;
+        margin-left: 5%;
+    }
+    pre{
         font-size: 150%;
         text-align: left;
         margin-left: 5%;
