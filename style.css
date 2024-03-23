@@ -53,9 +53,9 @@ h1{
     display:block;
     text-align: center;
     font-family: olden;
-    font-size:200%;
-    width: fit-content;
-    height: fit-content;
+    font-size:287%;
+    width: 28%;
+    
 }
 .cantari_box{
     display: flex;
@@ -78,7 +78,11 @@ h1{
     height: auto;
 }
 #nd_button{
-    width: 288.8px;
+    width: 300px;
+    height: auto;
+}
+#inv_button{
+    width: 300px;
     height: auto;
 }
 button {
@@ -113,7 +117,33 @@ button:hover{
     font-size: 250%;
     padding: 5px;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1600px) and (orientation:portrait) {
+    h1{
+        font-size: 300%;
+    }
+    .title{
+        width: 50%;
+    }
+    .cuvant_inainte_box{
+        background-color: #D6E3F8;
+        color:#584B53;
+        border-radius: 20px;
+        padding-inline: 40px;
+        padding-block: 10px;
+        margin: auto;
+        display:block;
+        text-align: center;
+        font-family: olden;
+        font-size:350%;
+        width: 62%;
+        
+    }
+    #cuvant_inainte{
+        color: #0B0A0A;
+        font-family: Helvetica, sans-serif,Arial;
+        font-size:75%;
+        text-align: left;
+    }
     .cantari_box{
         justify-content: space-around;
         display: flex; 
@@ -125,20 +155,40 @@ button:hover{
         font-size: 130%;
     }
     #c_duhovnicesti_button{
-        width: 380px;
+        width: 500px;
         height: auto;
     }
     
     #md_button{
-        width: 380px;
+        width: 500px;
         height: auto;
     }
     #nd_button{
-        width: 368.8px;
+        width: 500px;
         height: auto;
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation:portrait){
+    .cuvant_inainte_box{
+        background-color: #D6E3F8;
+        color:#584B53;
+        border-radius: 20px;
+        padding-inline: 40px;
+        padding-block: 10px;
+        margin: auto;
+        display:block;
+        text-align: center;
+        font-family: olden;
+        font-size:260%;
+        width: 60%;
+        
+    }
+    #cuvant_inainte{
+        color: #0B0A0A;
+        font-family: Helvetica, sans-serif,Arial;
+        font-size:65%;
+        text-align: left;
+    }
     h1{
         font-size: 180%;
     }
