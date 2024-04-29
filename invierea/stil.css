@@ -51,6 +51,11 @@ p{
     font-family: Verdana,Tahoma, sans-serif;
     color:#0B0A0A
 }
+@media only screen and (max-width:1080px) and (orientation:portrait){
+    .overlarge{
+        font-size: 50%;
+    }
+}
 @media only screen and (max-width:768px) {
    
     #prl{
@@ -67,4 +72,5 @@ p{
         font-family: Verdana,Tahoma, sans-serif;
         color:#0B0A0A
     }
+    
 }
