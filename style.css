@@ -167,6 +167,10 @@ button:hover{
         width: 500px;
         height: auto;
     }
+    #inv_button{
+        width: 500px;
+        height: auto;
+    }
 }
 @media only screen and (max-width: 768px) and (orientation:portrait){
     .cuvant_inainte_box{
@@ -206,6 +210,10 @@ button:hover{
     }
     #nd_button{
         width: 288.8px;
+        height: auto;
+    }
+    #inv_button{
+        width: 300px;
         height: auto;
     }
 }

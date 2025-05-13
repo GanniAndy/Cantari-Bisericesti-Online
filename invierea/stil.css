@@ -1,6 +1,6 @@
 @font-face {
     font-family: Olden;
-    src: url(OldEnglishFive-axyVg.ttf);
+    src: url(../OldEnglishFive-axyVg.ttf);
 }
 body{
     background-color: #FEF5EF;
@@ -16,6 +16,10 @@ footer{
     margin: 0 auto;
     padding-inline: 10px;
     background-color: #9D5C63;
+}
+.txt{
+    width: 70%;
+    align-items: center;
 }
 h1{
     font-family: Olden;
@@ -47,6 +51,11 @@ p{
     font-family: Verdana,Tahoma, sans-serif;
     color:#0B0A0A
 }
+@media only screen and (max-width:1080px) and (orientation:portrait){
+    .overlarge{
+        font-size: 50%;
+    }
+}
 @media only screen and (max-width:768px) {
    
     #prl{
@@ -63,4 +72,5 @@ p{
         font-family: Verdana,Tahoma, sans-serif;
         color:#0B0A0A
     }
+    
 }
